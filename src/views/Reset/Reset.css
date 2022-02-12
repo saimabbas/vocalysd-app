@@ -1,0 +1,208 @@
+.reset__pwd__main {
+    display: flex;
+    background: var(--bg-color);
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.reset__pwd {
+    display: flex;
+    margin: 1%;
+    justify-content: center;
+
+    /* padding:26px; */
+    width: fit-content;
+    border-radius: 10px;
+    /* background: rgb(243, 241, 241); */
+    background-color: #fff;
+    /* gap:10px; */
+}
+
+.reset__pwd__left {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: var(--main);
+    width: 35%;
+    /* height: 520px; */
+    color: #fff;
+    padding: 5% 0 0 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.reset__pwd__left__child {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+.reset__pwd__left__child > h2 {
+    padding: 10px 40px 10px 40px;
+    font-size: 2em;
+
+    font-weight: 400;
+}
+
+.reset__pwd__left__child > h5 {
+    font-size: 0.9em;
+    /* margin-top: 15px; */
+    text-align: center;
+    padding: 18px 40px 10px 40px;
+    font-weight: 400;
+}
+
+.reset__pwd__left > img {
+    /* margin: 280px 75px 50px 75px; */
+    /* padding-bottom: 50px; */
+    margin-left: 23%;
+    margin-top: 90%;
+    width: 200px;
+}
+
+.reset__pwd__right {
+    background: #fff;
+    width: 75%;
+    /* height: 570px; */
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 20px;
+}
+
+.reset__pwd__right__title {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    padding: 8% 0 0 4%;
+}
+
+.reset__pwd__right__title > h1 {
+    font-size: 30px !important;
+    font-weight: 400;
+}
+
+.reset__pwd__right__title > h4 {
+    font-size: 1rem;
+    /* text-align: center; */
+    font-weight: 300;
+}
+
+.label__title {
+    font-size: 11px !important;
+    font-weight: 500;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    font-style: italic;
+}
+
+.reset__pwd__right > .part__box > .part1 {
+    display: grid;
+    grid-template-columns: 0.85fr 0.15fr;
+    gap: 1rem;
+}
+
+.input {
+    margin-top: 1em;
+    width: -webkit-fill-available;
+
+    outline: none !important;
+    border-radius: 5px;
+
+    font-size: 0.8rem !important;
+    border: 0.1px solid var(--border-color);
+
+    font-style: italic;
+    padding: 7px 10px;
+    font-weight: 500;
+}
+
+::placeholder,
+:-ms-input-placeholder,
+::-ms-input-placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--border-color);
+    opacity: 1; /* Firefox */
+}
+
+.reset__pwd__right > .part__box > .part2 {
+    display: grid;
+    grid-template-columns: 1fr 0.1fr;
+    gap: 50px;
+}
+
+.part__box {
+    padding: 0 90px;
+    margin-top: 66px;
+}
+
+.reset__otp > input {
+    width: 80px;
+    padding: 7px 0 7px 25px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.password__details {
+    padding-top: 6px;
+    padding-left: 90px;
+    font-size: 55%;
+    margin-bottom: 2%;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.t__s {
+    font-size: 0.7rem !important;
+    margin-top: 40px;
+    /* margin-bottom: 26px; */
+    font-weight: 400;
+    text-align: end;
+    margin-right: 1.5rem;
+}
+
+.part1 > div > h5 {
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-align: end;
+    font-style: italic;
+    padding-top: 5px;
+    color: var(--border-color);
+}
+.part1 > div > h5 > span {
+    color: var(--red);
+}
+
+.part1 > button {
+    margin-top: 18%;
+    border: none;
+    height: 46%;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 500;
+    color: #fff;
+    background: var(--red);
+    border-radius: 5.5px;
+}
+
+.reset__pwd__right > button {
+    margin: 0.8rem 1.5rem 0.6rem 0.5rem;
+    border: none;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #fff;
+    font-weight: 500;
+    background: var(--yellow);
+    padding: 0.4rem 0;
+    border-radius: 12px;
+}

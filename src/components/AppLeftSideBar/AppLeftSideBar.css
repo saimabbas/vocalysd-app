@@ -1,0 +1,9 @@
+.AppLeftSideBar {
+    width: 6%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5vw 0 0 0vw;
+    transition: 0.5s;
+}

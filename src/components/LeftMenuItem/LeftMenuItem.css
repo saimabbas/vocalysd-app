@@ -1,0 +1,46 @@
+.LeftMenuItem
+{
+    width: 80%;
+    height: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.LeftMenuItem .mlm_icon 
+{
+    font-size: 2vw;
+    color: var(--main);
+}
+.LeftMenuItem span 
+{
+    font-size: 0.6vw;
+    font-weight: 500;
+    color: var(--main);
+    margin-top: 0.35vw;
+    text-transform: uppercase;
+}
+.makeStyles-mainTitle-2:nth-child(1)
+{
+    margin-bottom: 1vw;
+}
+.makeStyles-mainTitle-2:nth-child(2),
+.makeStyles-mainTitle-2:nth-child(3),
+.makeStyles-mainTitle-2:nth-child(4),
+.makeStyles-mainTitle-2:nth-child(5)
+{
+    margin-bottom: 0.35vw;
+}
+.makeStyles-mainTitle-2:nth-child(6){
+    margin-bottom: 2vw;
+}
+.makeStyles-mainTitle-2:nth-child(7),
+.makeStyles-mainTitle-2:nth-child(8) 
+{
+    margin-bottom: 0.35vw;
+}
+.makeStyles-mainTitle-2:nth-child(9)
+{
+    margin-bottom: 0vw;
+} 

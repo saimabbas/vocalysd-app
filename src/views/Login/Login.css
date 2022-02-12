@@ -1,0 +1,99 @@
+.login__container {
+    display: flex;
+    background: var(--bg-color);
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.login {
+    display: flex;
+    width: 75%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0.5%;
+    display: flex;
+    justify-content: center;
+}
+
+.login_main {
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.login_p {
+    margin-bottom: 3%;
+}
+
+.login_p2 {
+    text-align: left;
+}
+
+.login_h1 {
+    margin-top: 6%;
+    margin-bottom: 1.5%;
+    font-weight: 400;
+}
+
+.login_field {
+    display: flex;
+    text-align: center;
+}
+
+.login_input_field {
+    display: flex;
+    margin-left: 12%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    width: 77%;
+    padding: 12px 20px;
+    border-radius: 5px;
+    /* border-color: lavender; */
+    border: 0.1px solid var(--border-color);
+
+    font-style: italic;
+}
+
+.login_checkbox {
+    margin-bottom: 6%;
+}
+
+.login_btn {
+    margin-bottom: 5%;
+    width: 87%;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--yellow);
+    height: 35px;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.login_reset {
+    margin-bottom: 6%;
+}
+
+.login_reset > a {
+    text-decoration: none; /* remove underline from anchors */
+}
+
+.login_sidebar {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main);
+    color: white;
+    width: 35%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.login_right {
+    margin-bottom: 3%;
+}
